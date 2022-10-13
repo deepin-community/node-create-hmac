@@ -1,0 +1,38 @@
+node-create-hmac (1.1.7-2) unstable; urgency=medium
+
+  * Team upload
+  * Use debhelper-compat
+  * Bump policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 09 Apr 2020 22:43:24 +0200
+
+node-create-hmac (1.1.7-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump policy and compat no changes
+  * Move to salsa
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 09 May 2018 10:55:20 +0200
+
+node-create-hmac (1.1.6-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump policy no change
+
+ -- Bastien Roucariès <rouca@debian.org>  Sat, 12 Aug 2017 23:47:48 +0200
+
+node-create-hmac (1.1.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Run testsuite.
+  * Add browser.js to installed files.
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 11 May 2017 16:17:19 +0200
+
+node-create-hmac (1.1.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #860230)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 05 May 2017 20:58:13 +0530
