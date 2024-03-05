@@ -1,3 +1,1 @@
-#!/bin/sh
-set -e
-tap -R spec test.js
+tap -R tap --no-cov test.js
