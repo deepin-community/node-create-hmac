@@ -1,3 +1,34 @@
+node-create-hmac (1.1.7+~1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix test for tap >= 15 (--no-cov) (Closes: #1009504)
+
+ -- Yadd <yadd@debian.org>  Thu, 21 Apr 2022 12:56:00 +0200
+
+node-create-hmac (1.1.7+~1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-tap and nodejs.
+    + node-create-hmac: Drop versioned constraint on nodejs in Depends.
+
+  [ Yadd ]
+  * Add debian/gbp.conf
+  * Bump debhelper compatibility level to 13
+  * Fix GitHub regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Embed typescript definitions and repack
+
+ -- Yadd <yadd@debian.org>  Wed, 24 Nov 2021 18:05:55 +0100
+
 node-create-hmac (1.1.7-2) unstable; urgency=medium
 
   * Team upload
